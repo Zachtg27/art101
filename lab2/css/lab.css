@@ -1,0 +1,21 @@
+h1 {
+  color: red;
+  font-size: 230%;
+  font-family: Papyrus;
+}
+
+p {
+  font-family:courier new;
+  text-indent: 25px;
+  margin-left: 15px;
+}
+
+#content {
+  background-color: #7FFFD4;
+  width: 600px;
+  min-height: 300px:inherit;
+  padding: 10px;
+  margin: 10px;
+  border: dashed 4px #000000;
+  font-size: 20px;
+}
