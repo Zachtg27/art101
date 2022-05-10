@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lab 10 - Javascript events and forms</title>
+	<script src="js/lab.js" defer></script>
+	<link rel="stylesheet" type="text/css" href="../css/site.css">
+	<link rel="stylesheet" type="text/css" href="css/lab.css">
+</head>
+<body>
+	<div id="content">
+		<h1>Lab 10: Javascript events and forms</h1>
+		<h3>Challenges</h3>
+			<p>I am currently enrolled in another class where we have to code entire games in javascript so I did
+				not experience any challenges.</p>
+		<h3>Problems</h3>
+			<p>It took me a little bit to figure this one out but the only problem I had was my button input was inside
+			my form divide and that was causing my program to perform incorrectly</p>
+		<h3>Results</h3>
+		<h3>Script Output</h3>
+		<form>
+			<label for="user-name">Input your name: </label>
+			<input type="text" id="user-name" name="user-name">
+		</form>
+		<button onclick="sortName(document.getElementById('user-name').value)">Submit</button>
+	</div>
+</body>
+<div id="output">
+	<h3>Output</h3>
+</div>
+</html>
