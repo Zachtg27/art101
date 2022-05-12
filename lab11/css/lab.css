@@ -1,0 +1,12 @@
+#content {
+  background-color: #7FFFD4;
+  width: 1213px;
+  min-height: 300px:inherit;
+  padding: 10px;
+  margin: 10px;
+  border: dashed 4px #000000;
+  font-size: 20px;
+}
+.special {
+  color: #FF0000;
+}
